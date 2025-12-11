@@ -22,7 +22,7 @@ html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe U
 .card{background:var(--panel);border-radius:18px;box-shadow:var(--shadow);padding:12px;border:1px solid rgba(16,24,40,0.03)}
 .fullcam{position:relative;border-radius:14px;overflow:hidden;height:78vh;min-height:520px;background:#061426;display:flex;align-items:stretch;flex-direction:column}
 @media(max-width:680px){.fullcam{height:70vh;min-height:380px}}
-#video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}
+#video{width:100%;height:100%;object-fit:cover}
 .topbar{position:absolute;left:16px;top:16px;padding:8px 12px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.03));color:#fff;backdrop-filter:blur(8px);display:flex;align-items:center;gap:10px}
 .grid{position:absolute;inset:0;pointer-events:none;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,1fr)}
 .grid>div{border:1px solid rgba(255,255,255,0.02)}
@@ -139,3 +139,4 @@ const bg = document.getElementById('bgCanvas'); const ctx = bg.getContext('2d');
 </script>
 </body>
 </html>
+
